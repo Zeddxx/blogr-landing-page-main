@@ -532,6 +532,9 @@ footer {
   }
   .hamburger-btn{
     display: flex;
+  } 
+  .heading p{
+    font-size:2rem; 
   }
   section {
     margin-top: 6rem;

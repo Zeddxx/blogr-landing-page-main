@@ -543,6 +543,9 @@ footer {
   }
   .hamburger-btn{
     display: flex;
+  } 
+  .heading h1{
+    font-size:2rem; 
   }
   .hero-header{
     border-radius: 0 0 0 6rem;

@@ -548,6 +548,10 @@ footer {
     font-size:2rem; 
   }
   .hero-header{
+    background: url("./images/bg-pattern-intro-mobile.svg") no-repeat center,
+    linear-gradient(180deg, var(--bg-mobile), var(--bg));
+    background-size: 390%;
+    background-position: right 60% top 30%;
     border-radius: 0 0 0 6rem;
   }
   .heading h1{

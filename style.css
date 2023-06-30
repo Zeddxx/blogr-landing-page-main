@@ -533,7 +533,7 @@ footer {
   .hamburger-btn{
     display: flex;
   } 
-  .heading p{
+  .heading h1{
     font-size:2rem; 
   }
   section {

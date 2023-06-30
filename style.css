@@ -68,6 +68,8 @@ a {
   color: var(--fc-head);
 }
 .sec {
+  font-size: 1rem;
+  line-height: 1.6rem;
   color: var(--fc-secondary);
 }
 
@@ -214,6 +216,13 @@ nav.toggled{
   font-size: 4rem;
   font-weight: 600;
 }
+.sub-heading{
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
 .sub-heading p {
   font-size: 1rem;
 }
@@ -385,13 +394,15 @@ footer {
   width: 45px;
   display:none;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 10px;
+  /* justify-content: space-between; */
   cursor: pointer;
 }
 .bars{
-  height: 4px;
+  height: 2px;
   border-radius: 3rem;
   margin: 0;
+  padding: 0;
   width: 100%;
   background: #fff;
 
@@ -439,11 +450,11 @@ footer {
   .navlist{
     flex-direction: column;
     background: #fff;
-    position: fixed;
+    position: absolute;
     width: 90%;
     height: inherit;
     left: 50%;
-    top: 15%;
+    top: 98px;
     transform: translateX(-250%);
     padding: 2rem 0;
     gap: 2.5rem;
@@ -533,6 +544,16 @@ footer {
   .hamburger-btn{
     display: flex;
   }
+  .hero-header{
+    border-radius: 0 0 0 6rem;
+  }
+  .heading h1{
+    font-size: 2.4rem;
+  }
+  .sub-heading p{
+    font-size: .93rem;
+  }
+  
   section {
     margin-top: 6rem;
   }
@@ -562,6 +583,7 @@ footer {
   }
   .head {
     width: 100%;
+    font-size: 2rem;
   }
   .editor,
   .management {
@@ -569,8 +591,9 @@ footer {
   }
   .phone-section {
     position: relative;
-    height: 100vh;
-    background-position: bottom;
+    height: 80vh;
+    background-size: 200%;
+    background-position: right 50% bottom -60%;
     margin-top: 14rem;
     border-radius: 0 6rem 0 6rem;
   }
@@ -595,6 +618,9 @@ footer {
     height: 50%;
     display: flex;
     justify-content: center;
+  }
+  .phone-img{
+    height: 40%;
   }
   .phone-img img {
     max-width: 100%;
